@@ -1,0 +1,79 @@
+{
+  "disease_id": "D013",
+  "disease_name": "Diabetes Mellitus (Type 2)",
+  "category": "Endocrine Disease",
+  "prevalence_region": ["India"],
+  "description": "Metabolic disorder characterized by hyperglycemia due to insulin defects.",
+  "common_symptoms": [
+    {
+      "name": "Polyuria",
+      "typical_severity": "Moderate",
+      "typical_duration": "Chronic",
+      "weight": 5
+    },
+    {
+      "name": "Polydipsia",
+      "typical_severity": "Moderate",
+      "typical_duration": "Chronic",
+      "weight": 5
+    },
+    {
+      "name": "Weight loss",
+      "typical_severity": "Variable",
+      "typical_duration": "Chronic",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Hyperglycemia",
+      "clinical_significance": "Fasting glucose >= 126 mg/dL",
+      "weight": 5
+    },
+    {
+      "name": "Asymptomatic",
+      "clinical_significance": "Common in early disease",
+      "weight": 3
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Diabetic Ketoacidosis",
+      "reason": "Metabolic decompensation (acidosis, ketosis)",
+      "action": "IV fluids and insulin"
+    },
+    {
+      "name": "Hyperosmolar Hyperglycemic State",
+      "reason": "Severe dehydration and confusion",
+      "action": "Aggressive rehydration"
+    },
+    {
+      "name": "Foot ulcer",
+      "reason": "Risk of amputation",
+      "action": "Wound care referral"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Obesity",
+      "impact": "Major risk factor"
+    },
+    {
+      "name": "Family history",
+      "impact": "Genetic predisposition"
+    }
+  ],
+  "typical_onset": "Insidious",
+  "disease_course": "Chronic progressive; risk of micro/macrovascular complications.",
+  "exclusion_clues": [],
+  "differential_diagnoses": [
+    "Stress hyperglycemia",
+    "Diabetes insipidus"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "AIIMS-Rishikesh.pdf",
+    "Harrison-20th-Edition.pdf",
+    "ICMR-Type-2-Guidelines.pdf"
+  ]
+}
