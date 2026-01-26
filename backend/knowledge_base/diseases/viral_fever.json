@@ -1,0 +1,69 @@
+{
+  "disease_id": "D008",
+  "disease_name": "Acute Undifferentiated Febrile Illness",
+  "category": "Infectious Disease",
+  "prevalence_region": ["India"],
+  "description": "Fever of short duration (<14 days) without localizing signs.",
+  "common_symptoms": [
+    {
+      "name": "Fever",
+      "typical_severity": "Variable",
+      "typical_duration": "< 14 days",
+      "weight": 5
+    },
+    {
+      "name": "Myalgia",
+      "typical_severity": "Mild to moderate",
+      "typical_duration": "Acute",
+      "weight": 3
+    },
+    {
+      "name": "Malaise",
+      "typical_severity": "Moderate",
+      "typical_duration": "Acute",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Absence of focal signs",
+      "clinical_significance": "No localization to specific organ system",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Altered sensorium",
+      "reason": "Suggests encephalitis/meningitis",
+      "action": "Urgent CNS evaluation"
+    },
+    {
+      "name": "Bleeding/Rash",
+      "reason": "Suggests Dengue or Rickettsial disease",
+      "action": "Investigate for specific pathogens"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Vector exposure",
+      "impact": "Mosquito/tick bites"
+    }
+  ],
+  "typical_onset": "Acute",
+  "disease_course": "Often self-limiting.",
+  "exclusion_clues": [
+    "Purulent sputum (suggests pneumonia)",
+    "Dysuria (suggests UTI)"
+  ],
+  "differential_diagnoses": [
+    "Dengue",
+    "Malaria",
+    "Scrub typhus",
+    "Typhoid fever"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "ICMR-Infectious.pdf",
+    "AIIMS-Rishikesh.pdf"
+  ]
+}
