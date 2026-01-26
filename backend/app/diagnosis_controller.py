@@ -5,7 +5,7 @@ from backend.core.red_flag_handler import check_red_flags
 from backend.core.inference_engine import infer_diseases
 from backend.services.openai_input_parser import parse_input
 from backend.services.openai_explanation_generator import explain
-from utils.logger import get_logger
+from backend.utils.logger import get_logger
 
 logger = get_logger(__name__)
 
