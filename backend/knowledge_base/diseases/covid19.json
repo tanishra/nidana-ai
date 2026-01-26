@@ -1,0 +1,60 @@
+{
+  "disease_id": "D006",
+  "disease_name": "COVID-19",
+  "category": "Infectious Disease",
+  "prevalence_region": ["India"],
+  "description": "Viral respiratory illness caused by SARS-CoV-2, capable of causing ARDS.",
+  "common_symptoms": [
+    {
+      "name": "Fever",
+      "typical_severity": "Variable",
+      "typical_duration": "Acute",
+      "weight": 5
+    },
+    {
+      "name": "Cough",
+      "typical_severity": "Variable",
+      "typical_duration": "Acute",
+      "weight": 3
+    },
+    {
+      "name": "Dyspnea",
+      "typical_severity": "Variable",
+      "typical_duration": "Acute",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Hypoxia",
+      "clinical_significance": "Respiratory distress/ARDS",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "ARDS",
+      "reason": "Severe respiratory failure",
+      "action": "ICU admission/Ventilatory support"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Comorbidities",
+      "impact": "Diabetes/HTN increase severity"
+    }
+  ],
+  "typical_onset": "Acute",
+  "disease_course": "Variable; asymptomatic to severe pneumonia/ARDS.",
+  "exclusion_clues": [],
+  "differential_diagnoses": [
+    "Influenza",
+    "Scrub Typhus",
+    "Bacterial pneumonia"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "ICMR-Infectious.pdf",
+    "API-Textbook-12th-Edition.pdf"
+  ]
+}
