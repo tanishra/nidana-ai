@@ -1,0 +1,71 @@
+{
+  "disease_id": "D018",
+  "disease_name": "Stroke",
+  "category": "Neurological Disease",
+  "prevalence_region": ["India"],
+  "description": "Acute neurological deficit of vascular origin (ischemic or hemorrhagic).",
+  "common_symptoms": [
+    {
+      "name": "Hemiparesis",
+      "typical_severity": "Severe",
+      "typical_duration": "Acute",
+      "weight": 5
+    },
+    {
+      "name": "Aphasia",
+      "typical_severity": "Variable",
+      "typical_duration": "Acute",
+      "weight": 5
+    },
+    {
+      "name": "Facial droop",
+      "typical_severity": "Unilateral",
+      "typical_duration": "Acute",
+      "weight": 5
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Sudden onset focal deficit",
+      "clinical_significance": "Vascular hallmark",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Loss of consciousness",
+      "reason": "Suggests large hemorrhage or brainstem involvement",
+      "action": "Airway protection/Urgent imaging"
+    },
+    {
+      "name": "Dysphagia",
+      "reason": "Aspiration risk",
+      "action": "NPO/Swallow assessment"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Hypertension",
+      "impact": "Major risk factor"
+    },
+    {
+      "name": "Atrial fibrillation",
+      "impact": "Embolic risk"
+    }
+  ],
+  "typical_onset": "Sudden",
+  "disease_course": "Acute deficit; requires immediate reperfusion (if ischemic) or stabilization.",
+  "exclusion_clues": [
+    "Gradual progression (suggests tumor)"
+  ],
+  "differential_diagnoses": [
+    "Transient Ischemic Attack",
+    "Subdural hematoma",
+    "Brain tumor"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "Oxford-Handbook-3rd-Edition.pdf",
+    "AIIMS-Rishikesh.pdf"
+  ]
+}
