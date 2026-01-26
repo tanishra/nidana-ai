@@ -7,3 +7,5 @@ red_flag_handler.md
 .DS_Store
 
 .env
+
+__pycache__
