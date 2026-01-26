@@ -1,0 +1,78 @@
+{
+  "disease_id": "D004",
+  "disease_name": "Pulmonary Tuberculosis",
+  "category": "Infectious Disease",
+  "prevalence_region": ["India"],
+  "description": "Chronic bacterial infection of the lungs caused by Mycobacterium tuberculosis.",
+  "common_symptoms": [
+    {
+      "name": "Cough",
+      "typical_severity": "Variable",
+      "typical_duration": "> 2 weeks",
+      "weight": 5
+    },
+    {
+      "name": "Fever",
+      "typical_severity": "Low grade",
+      "typical_duration": "Chronic (evening rise)",
+      "weight": 3
+    },
+    {
+      "name": "Weight loss",
+      "typical_severity": "Significant",
+      "typical_duration": "Chronic",
+      "weight": 3
+    },
+    {
+      "name": "Night sweats",
+      "typical_severity": "Moderate",
+      "typical_duration": "Chronic",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Hemoptysis",
+      "clinical_significance": "Blood in sputum; suggests cavitation",
+      "weight": 5
+    },
+    {
+      "name": "Evening rise of temperature",
+      "clinical_significance": "Constitutional symptom",
+      "weight": 3
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Massive hemoptysis",
+      "reason": "Risk of asphyxiation/exsanguination",
+      "action": "Emergency airway management"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "HIV infection",
+      "impact": "Increases susceptibility and atypical presentation"
+    },
+    {
+      "name": "Diabetes mellitus",
+      "impact": "Increases risk of active disease"
+    }
+  ],
+  "typical_onset": "Insidious",
+  "disease_course": "Chronic progressive cough and wasting.",
+  "exclusion_clues": [
+    "Acute onset <1 week (suggests bacterial pneumonia)",
+    "Normal chest X-ray (unlikely in active pulmonary TB)"
+  ],
+  "differential_diagnoses": [
+    "Pneumonia",
+    "Lung cancer",
+    "Bronchiectasis"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "AIIMS-Rishikesh.pdf",
+    "Harrison-17th-Edition.pdf"
+  ]
+}
