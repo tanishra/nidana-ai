@@ -1,0 +1,67 @@
+{
+  "disease_id": "D007",
+  "disease_name": "Acute Gastroenteritis",
+  "category": "Gastrointestinal Disease",
+  "prevalence_region": ["India"],
+  "description": "Inflammation of the GI tract presenting with diarrhea and vomiting.",
+  "common_symptoms": [
+    {
+      "name": "Diarrhea",
+      "typical_severity": "Moderate to severe",
+      "typical_duration": "Acute (<2 weeks)",
+      "weight": 5
+    },
+    {
+      "name": "Vomiting",
+      "typical_severity": "Acute",
+      "typical_duration": "Short duration",
+      "weight": 3
+    },
+    {
+      "name": "Abdominal cramps",
+      "typical_severity": "Moderate",
+      "typical_duration": "Acute",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Dehydration",
+      "clinical_significance": "Loss of turgor, sunken eyes; major complication",
+      "weight": 3
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Severe dehydration",
+      "reason": "Risk of hypovolemic shock",
+      "action": "Rapid fluid replacement (IV)"
+    },
+    {
+      "name": "Bloody stool (Dysentery)",
+      "reason": "Suggests invasive bacterial infection",
+      "action": "Stool culture and antibiotics"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Contaminated food/water",
+      "impact": "Fecal-oral transmission"
+    }
+  ],
+  "typical_onset": "Sudden",
+  "disease_course": "Self-limiting (viral/toxin) or requires antibiotics (invasive bacteria).",
+  "exclusion_clues": [
+    "Chronic diarrhea >4 weeks (suggests malabsorption/IBD)"
+  ],
+  "differential_diagnoses": [
+    "Cholera",
+    "Food poisoning",
+    "Typhoid fever"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "AIIMS-Rishikesh.pdf",
+    "Harrison-20th-Edition.pdf"
+  ]
+}
