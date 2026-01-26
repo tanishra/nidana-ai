@@ -1,0 +1,71 @@
+{
+  "disease_id": "D020",
+  "disease_name": "Osteoarthritis",
+  "category": "Musculoskeletal Disease",
+  "prevalence_region": ["India"],
+  "description": "Degenerative joint disease causing pain and stiffness.",
+  "common_symptoms": [
+    {
+      "name": "Joint pain",
+      "typical_severity": "Moderate",
+      "typical_duration": "Chronic",
+      "weight": 5
+    },
+    {
+      "name": "Stiffness",
+      "typical_severity": "Mild (<30 mins)",
+      "typical_duration": "Morning",
+      "weight": 3
+    },
+    {
+      "name": "Crepitus",
+      "typical_severity": "Mild",
+      "typical_duration": "Chronic",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Mechanical pain",
+      "clinical_significance": "Worse with activity, better with rest",
+      "weight": 5
+    },
+    {
+      "name": "Heberden's nodes",
+      "clinical_significance": "Bony enlargement of DIP joints",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Hot red joint",
+      "reason": "Suggests septic arthritis or gout",
+      "action": "Joint aspiration"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Age",
+      "impact": "Degeneration"
+    },
+    {
+      "name": "Obesity",
+      "impact": "Joint stress"
+    }
+  ],
+  "typical_onset": "Insidious",
+  "disease_course": "Progressive degeneration.",
+  "exclusion_clues": [
+    "Prolonged stiffness >1 hour (suggests Rheumatoid Arthritis)"
+  ],
+  "differential_diagnoses": [
+    "Rheumatoid arthritis",
+    "Gout",
+    "Septic arthritis"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "AIIMS-Rishikesh.pdf",
+    "Harrison-20th-Edition.pdf"
+  ]
+}
