@@ -1,0 +1,79 @@
+{
+  "disease_id": "D003",
+  "disease_name": "Typhoid Fever",
+  "category": "Infectious Disease",
+  "prevalence_region": ["India"],
+  "description": "Systemic infection caused by Salmonella Typhi, presenting with prolonged fever and abdominal symptoms.",
+  "common_symptoms": [
+    {
+      "name": "Fever",
+      "typical_severity": "High (step-ladder pattern)",
+      "typical_duration": "Prolonged (>1 week)",
+      "weight": 5
+    },
+    {
+      "name": "Abdominal pain",
+      "typical_severity": "Moderate",
+      "typical_duration": "Persistent",
+      "weight": 3
+    },
+    {
+      "name": "Malaise",
+      "typical_severity": "Moderate",
+      "typical_duration": "Acute",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Relative bradycardia",
+      "clinical_significance": "Pulse slower than expected for fever height",
+      "weight": 3
+    },
+    {
+      "name": "Rose spots",
+      "clinical_significance": "Maculopapular rash on trunk (rare but specific)",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Acute abdomen",
+      "reason": "Suspect intestinal perforation",
+      "action": "Surgical emergency referral"
+    },
+    {
+      "name": "Gastrointestinal bleeding",
+      "reason": "Hemorrhage from Peyer's patches",
+      "action": "Urgent stabilization/transfusion"
+    },
+    {
+      "name": "Altered sensorium",
+      "reason": "Typhoid encephalopathy",
+      "action": "High-dose steroids and antibiotics"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Poor sanitation",
+      "impact": "Fecal-oral transmission"
+    }
+  ],
+  "typical_onset": "Gradual (insidious)",
+  "disease_course": "Week 1: fever/malaise; Week 2: abdominal symptoms/rash; Week 3: complications (bleed/perforation).",
+  "exclusion_clues": [
+    "Rigors (suggests Malaria)",
+    "Eschar (suggests Scrub Typhus)"
+  ],
+  "differential_diagnoses": [
+    "Malaria",
+    "Dengue",
+    "Rickettsial diseases"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "AIIMS-Rishikesh.pdf",
+    "Harrison-17th-Edition.pdf",
+    "ICMR-Infectious.pdf"
+  ]
+}
