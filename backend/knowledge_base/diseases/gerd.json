@@ -1,0 +1,61 @@
+{
+  "disease_id": "D016",
+  "disease_name": "Gastroesophageal Reflux Disease",
+  "category": "Gastrointestinal Disease",
+  "prevalence_region": ["India"],
+  "description": "Reflux of stomach acid into the esophagus causing symptoms or mucosal injury.",
+  "common_symptoms": [
+    {
+      "name": "Heartburn",
+      "typical_severity": "Mild to moderate",
+      "typical_duration": "Recurrent",
+      "weight": 5
+    },
+    {
+      "name": "Regurgitation",
+      "typical_severity": "Mild",
+      "typical_duration": "Recurrent",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Positional worsening",
+      "clinical_significance": "Worse lying flat/bending",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Dysphagia",
+      "reason": "Suggests stricture or malignancy",
+      "action": "Endoscopy"
+    },
+    {
+      "name": "Weight loss",
+      "reason": "Alarm feature for cancer",
+      "action": "Urgent investigation"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Obesity",
+      "impact": "Increases abdominal pressure"
+    }
+  ],
+  "typical_onset": "Chronic recurrent",
+  "disease_course": "Chronic; managed with acid suppression/lifestyle.",
+  "exclusion_clues": [
+    "Cardiac chest pain (must be ruled out)"
+  ],
+  "differential_diagnoses": [
+    "Peptic ulcer disease",
+    "Coronary artery disease",
+    "Esophageal cancer"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "AIIMS-Rishikesh.pdf",
+    "Oxford-Handbook-3rd-Edition.pdf"
+  ]
+}
