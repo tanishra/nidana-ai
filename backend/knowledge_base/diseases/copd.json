@@ -1,0 +1,71 @@
+{
+  "disease_id": "D010",
+  "disease_name": "Chronic Obstructive Pulmonary Disease",
+  "category": "Respiratory Disease",
+  "prevalence_region": ["India"],
+  "description": "Progressive airflow limitation not fully reversible, associated with noxious particles.",
+  "common_symptoms": [
+    {
+      "name": "Dyspnea on exertion",
+      "typical_severity": "Progressive",
+      "typical_duration": "Persistent",
+      "weight": 5
+    },
+    {
+      "name": "Chronic cough",
+      "typical_severity": "Variable",
+      "typical_duration": "Chronic",
+      "weight": 3
+    },
+    {
+      "name": "Sputum production",
+      "typical_severity": "Variable",
+      "typical_duration": "Chronic",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "History of exposure",
+      "clinical_significance": "Smoking or biomass fuel use",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Acute exacerbation",
+      "reason": "Worsening dyspnea/purulence",
+      "action": "Antibiotics/Steroids/Oxygen"
+    },
+    {
+      "name": "Cyanosis/Altered sensorium",
+      "reason": "Respiratory failure",
+      "action": "Hospitalize"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Smoking",
+      "impact": "Primary cause"
+    },
+    {
+      "name": "Biomass fuel",
+      "impact": "Common cause in developing nations"
+    }
+  ],
+  "typical_onset": "Insidious (>40 years)",
+  "disease_course": "Progressive decline.",
+  "exclusion_clues": [
+    "Fully reversible airflow (suggests Asthma)"
+  ],
+  "differential_diagnoses": [
+    "Asthma",
+    "Bronchiectasis",
+    "Heart failure"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "AIIMS-Rishikesh.pdf",
+    "Harrison-17th-Edition.pdf"
+  ]
+}
