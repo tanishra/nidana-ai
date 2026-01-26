@@ -1,0 +1,77 @@
+{
+  "disease_id": "D012",
+  "disease_name": "Myocardial Infarction",
+  "category": "Cardiovascular Disease",
+  "prevalence_region": ["India"],
+  "description": "Necrosis of myocardium due to ischemia, presenting with acute chest pain.",
+  "common_symptoms": [
+    {
+      "name": "Chest pain",
+      "typical_severity": "Severe/Crushing",
+      "typical_duration": "Prolonged (>30 mins)",
+      "weight": 5
+    },
+    {
+      "name": "Diaphoresis",
+      "typical_severity": "Profuse",
+      "typical_duration": "Acute",
+      "weight": 3
+    },
+    {
+      "name": "Nausea/Vomiting",
+      "typical_severity": "Moderate",
+      "typical_duration": "Acute",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Radiation of pain",
+      "clinical_significance": "To left arm or jaw",
+      "weight": 5
+    },
+    {
+      "name": "Levine's sign",
+      "clinical_significance": "Clenched fist over chest",
+      "weight": 3
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Hypotension",
+      "reason": "Cardiogenic shock",
+      "action": "Emergency resuscitation"
+    },
+    {
+      "name": "Arrhythmias",
+      "reason": "Risk of cardiac arrest",
+      "action": "Defibrillation/Anti-arrhythmics"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Diabetes",
+      "impact": "High risk"
+    },
+    {
+      "name": "Hypertension",
+      "impact": "High risk"
+    }
+  ],
+  "typical_onset": "Acute",
+  "disease_course": "Immediate medical emergency; risk of death or heart failure.",
+  "exclusion_clues": [
+    "Pain reproduced by palpation (suggests musculoskeletal)",
+    "Pleuritic pain (suggests PE or pericarditis)"
+  ],
+  "differential_diagnoses": [
+    "Unstable angina",
+    "Aortic dissection",
+    "Pulmonary embolism"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "AIIMS-Rishikesh.pdf",
+    "Harrison-20th-Edition.pdf"
+  ]
+}
