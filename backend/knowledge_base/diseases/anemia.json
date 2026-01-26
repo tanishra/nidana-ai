@@ -1,0 +1,65 @@
+{
+  "disease_id": "D015",
+  "disease_name": "Anemia",
+  "category": "Hematologic Disease",
+  "prevalence_region": ["India"],
+  "description": "Deficiency of red blood cells or hemoglobin, causing reduced oxygen transport.",
+  "common_symptoms": [
+    {
+      "name": "Fatigue",
+      "typical_severity": "Moderate",
+      "typical_duration": "Chronic",
+      "weight": 5
+    },
+    {
+      "name": "Dyspnea on exertion",
+      "typical_severity": "Variable",
+      "typical_duration": "Chronic",
+      "weight": 3
+    },
+    {
+      "name": "Pallor",
+      "typical_severity": "Variable",
+      "typical_duration": "Chronic",
+      "weight": 5
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Pale palmar creases",
+      "clinical_significance": "Suggests Hb < 8 g/dL",
+      "weight": 3
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Angina",
+      "reason": "Cardiac ischemia due to low oxygen",
+      "action": "Transfusion/Oxygen"
+    },
+    {
+      "name": "Syncope/Hypotension",
+      "reason": "Acute blood loss",
+      "action": "Volume resuscitation"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Pregnancy",
+      "impact": "High iron demand"
+    }
+  ],
+  "typical_onset": "Gradual (chronic) or Acute (bleeding)",
+  "disease_course": "Depends on etiology (iron deficiency, chronic disease, hemolysis).",
+  "exclusion_clues": [],
+  "differential_diagnoses": [
+    "Iron deficiency anemia",
+    "Megaloblastic anemia",
+    "Anemia of chronic disease"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "Harrison-20th-Edition.pdf",
+    "AIIMS-Rishikesh.pdf"
+  ]
+}
