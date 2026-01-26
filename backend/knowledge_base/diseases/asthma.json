@@ -1,0 +1,73 @@
+{
+  "disease_id": "D009",
+  "disease_name": "Bronchial Asthma",
+  "category": "Respiratory Disease",
+  "prevalence_region": ["India"],
+  "description": "Chronic inflammatory airway disease characterized by reversible obstruction and wheezing.",
+  "common_symptoms": [
+    {
+      "name": "Wheezing",
+      "typical_severity": "Variable",
+      "typical_duration": "Episodic",
+      "weight": 5
+    },
+    {
+      "name": "Dyspnea",
+      "typical_severity": "Variable",
+      "typical_duration": "Episodic",
+      "weight": 5
+    },
+    {
+      "name": "Chest tightness",
+      "typical_severity": "Moderate",
+      "typical_duration": "Episodic",
+      "weight": 3
+    },
+    {
+      "name": "Cough",
+      "typical_severity": "Worse at night",
+      "typical_duration": "Chronic/Recurrent",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Expiratory wheeze",
+      "clinical_significance": "Sign of airflow obstruction",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Silent chest",
+      "reason": "Severe obstruction/no air movement",
+      "action": "Emergency intervention/Intubation"
+    },
+    {
+      "name": "Drowsiness/Confusion",
+      "reason": "Hypercapnia/Respiratory failure",
+      "action": "ICU admission"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Atopy",
+      "impact": "Genetic predisposition"
+    }
+  ],
+  "typical_onset": "Childhood or adult (episodic)",
+  "disease_course": "Chronic with acute exacerbations; reversible.",
+  "exclusion_clues": [
+    "Stridor (suggests upper airway obstruction)"
+  ],
+  "differential_diagnoses": [
+    "COPD",
+    "Heart failure",
+    "Foreign body aspiration"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "AIIMS-Rishikesh.pdf",
+    "Harrison-20th-Edition.pdf"
+  ]
+}
