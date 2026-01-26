@@ -1,0 +1,62 @@
+{
+  "disease_id": "D014",
+  "disease_name": "Hypertension",
+  "category": "Cardiovascular Disease",
+  "prevalence_region": ["India"],
+  "description": "Chronic elevated blood pressure (>140/90 mmHg).",
+  "common_symptoms": [
+    {
+      "name": "Asymptomatic",
+      "typical_severity": "N/A",
+      "typical_duration": "Chronic",
+      "weight": 5
+    },
+    {
+      "name": "Headache",
+      "typical_severity": "Mild",
+      "typical_duration": "Episodic",
+      "weight": 1
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Elevated blood pressure",
+      "clinical_significance": "Diagnostic criterion",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Hypertensive emergency",
+      "reason": "BP >180/110 with acute target organ damage (e.g., stroke, MI, renal failure)",
+      "action": "Reduce BP with parenteral drugs (ICU)"
+    },
+    {
+      "name": "Papilledema",
+      "reason": "Sign of malignant hypertension",
+      "action": "Urgent BP reduction"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Obesity",
+      "impact": "Increases risk"
+    },
+    {
+      "name": "Dietary salt",
+      "impact": "Increases risk"
+    }
+  ],
+  "typical_onset": "Insidious",
+  "disease_course": "Chronic; untreated leads to cardiovascular/renal events.",
+  "exclusion_clues": [],
+  "differential_diagnoses": [
+    "White coat hypertension",
+    "Secondary hypertension (e.g., Renal artery stenosis)"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "ICMR-Hypertension.pdf",
+    "Harrison-20th-Edition.pdf"
+  ]
+}
