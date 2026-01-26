@@ -1,0 +1,84 @@
+{
+  "disease_id": "D002",
+  "disease_name": "Malaria",
+  "category": "Infectious Disease",
+  "prevalence_region": ["India"],
+  "description": "Protozoal infection transmitted by Anopheles mosquitoes, characterized by febrile paroxysms and hemolysis.",
+  "common_symptoms": [
+    {
+      "name": "Fever",
+      "typical_severity": "High",
+      "typical_duration": "Intermittent",
+      "weight": 5
+    },
+    {
+      "name": "Chills",
+      "typical_severity": "Severe (rigors)",
+      "typical_duration": "Hours",
+      "weight": 5
+    },
+    {
+      "name": "Sweating",
+      "typical_severity": "Profuse",
+      "typical_duration": "Post-fever",
+      "weight": 3
+    },
+    {
+      "name": "Headache",
+      "typical_severity": "Moderate",
+      "typical_duration": "Acute",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Febrile paroxysms",
+      "clinical_significance": "Cyclical pattern (cold-hot-sweating stages)",
+      "weight": 5
+    },
+    {
+      "name": "Splenomegaly",
+      "clinical_significance": "Enlarged spleen common in endemic areas",
+      "weight": 3
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Impaired consciousness",
+      "reason": "Cerebral malaria (severe P. falciparum)",
+      "action": "Urgent ICU admission"
+    },
+    {
+      "name": "Hemoglobinuria",
+      "reason": "Blackwater fever indicating severe hemolysis",
+      "action": "Emergency management"
+    },
+    {
+      "name": "Acidosis",
+      "reason": "Respiratory distress/metabolic acidosis",
+      "action": "Urgent resuscitation"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Pregnancy",
+      "impact": "Increases severity"
+    }
+  ],
+  "typical_onset": "Acute paroxysmal",
+  "disease_course": "Cyclical fevers; P. falciparum may progress to multiorgan failure.",
+  "exclusion_clues": [
+    "Rash (suggests viral exanthem)",
+    "Eschar (suggests Rickettsial disease)"
+  ],
+  "differential_diagnoses": [
+    "Dengue",
+    "Typhoid fever",
+    "Leptospirosis"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "API-Textbook-12th-Edition.pdf",
+    "AIIMS-Rishikesh.pdf"
+  ]
+}
