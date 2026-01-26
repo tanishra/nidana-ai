@@ -1,0 +1,83 @@
+{
+  "disease_id": "D005",
+  "disease_name": "Community Acquired Pneumonia",
+  "category": "Infectious Disease",
+  "prevalence_region": ["India"],
+  "description": "Acute infection of the lung parenchyma characterized by consolidation.",
+  "common_symptoms": [
+    {
+      "name": "Cough",
+      "typical_severity": "Moderate to severe",
+      "typical_duration": "Acute",
+      "weight": 5
+    },
+    {
+      "name": "Fever",
+      "typical_severity": "High (>37.7°C)",
+      "typical_duration": "Acute",
+      "weight": 3
+    },
+    {
+      "name": "Dyspnea",
+      "typical_severity": "Variable",
+      "typical_duration": "Acute",
+      "weight": 3
+    },
+    {
+      "name": "Pleuritic chest pain",
+      "typical_severity": "Sharp",
+      "typical_duration": "Acute",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Bronchial breath sounds",
+      "clinical_significance": "Indicates consolidation",
+      "weight": 5
+    },
+    {
+      "name": "Rusty sputum",
+      "clinical_significance": "Suggests pneumococcal etiology",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Confusion",
+      "reason": "Sign of severe sepsis/hypoxia (CURB-65 criteria)",
+      "action": "Hospitalize/ICU referral"
+    },
+    {
+      "name": "Tachypnea >30/min",
+      "reason": "Respiratory failure risk",
+      "action": "Oxygen therapy/Hospitalize"
+    },
+    {
+      "name": "Hypotension",
+      "reason": "Septic shock",
+      "action": "Fluid resuscitation/Vasopressors"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Age >65",
+      "impact": "Increased mortality"
+    }
+  ],
+  "typical_onset": "Acute",
+  "disease_course": "Rapid onset fever/cough, resolves with antibiotics or progresses to failure.",
+  "exclusion_clues": [
+    "Chronic symptoms >2 weeks (suggests TB)"
+  ],
+  "differential_diagnoses": [
+    "Acute bronchitis",
+    "Tuberculosis",
+    "Pulmonary embolism"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "AIIMS-Rishikesh.pdf",
+    "Harrison-20th-Edition.pdf"
+  ]
+}
