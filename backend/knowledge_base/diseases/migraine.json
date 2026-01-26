@@ -1,0 +1,73 @@
+{
+  "disease_id": "D019",
+  "disease_name": "Migraine",
+  "category": "Neurological Disease",
+  "prevalence_region": ["India"],
+  "description": "Primary headache disorder with recurrent pulsating attacks.",
+  "common_symptoms": [
+    {
+      "name": "Headache",
+      "typical_severity": "Moderate to severe",
+      "typical_duration": "4-72 hours",
+      "weight": 5
+    },
+    {
+      "name": "Nausea",
+      "typical_severity": "Moderate",
+      "typical_duration": "During attack",
+      "weight": 3
+    },
+    {
+      "name": "Photophobia",
+      "typical_severity": "Moderate",
+      "typical_duration": "During attack",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Unilateral pulsating pain",
+      "clinical_significance": "Classic feature",
+      "weight": 3
+    },
+    {
+      "name": "Aura",
+      "clinical_significance": "Visual/sensory warning",
+      "weight": 3
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Thunderclap headache",
+      "reason": "Suggests subarachnoid hemorrhage",
+      "action": "Urgent CT scan"
+    },
+    {
+      "name": "Focal neurological signs",
+      "reason": "Suggests stroke or tumor",
+      "action": "Neuroimaging"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Family history",
+      "impact": "Genetic predisposition"
+    }
+  ],
+  "typical_onset": "Recurrent episodic",
+  "disease_course": "Chronic condition with episodic attacks.",
+  "exclusion_clues": [
+    "Fever/Neck stiffness (suggests Meningitis)"
+  ],
+  "differential_diagnoses": [
+    "Tension headache",
+    "Cluster headache",
+    "Meningitis"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "Symptoms-To-Diagnose-2nd-Edition.pdf",
+    "AIIMS-Rishikesh.pdf",
+    "Oxford-Handbook-3rd-Edition.pdf"
+  ]
+}
