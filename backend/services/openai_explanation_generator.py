@@ -1,6 +1,6 @@
 import openai
 import os
-from utils.logger import get_logger
+from backend.utils.logger import get_logger
 from dotenv import load_dotenv
 
 load_dotenv()
