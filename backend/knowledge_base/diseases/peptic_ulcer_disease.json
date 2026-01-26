@@ -1,0 +1,63 @@
+{
+  "disease_id": "D017",
+  "disease_name": "Peptic Ulcer Disease",
+  "category": "Gastrointestinal Disease",
+  "prevalence_region": ["India"],
+  "description": "Mucosal ulceration of stomach/duodenum, often due to H. pylori or NSAIDs.",
+  "common_symptoms": [
+    {
+      "name": "Epigastric pain",
+      "typical_severity": "Moderate",
+      "typical_duration": "Recurrent",
+      "weight": 3
+    },
+    {
+      "name": "Dyspepsia",
+      "typical_severity": "Mild",
+      "typical_duration": "Chronic",
+      "weight": 3
+    }
+  ],
+  "key_symptoms": [
+    {
+      "name": "Relationship to food",
+      "clinical_significance": "Pain worse (gastric) or better (duodenal) with food",
+      "weight": 3
+    }
+  ],
+  "red_flags": [
+    {
+      "name": "Hematemesis/Melena",
+      "reason": "GI bleeding",
+      "action": "Urgent endoscopy"
+    },
+    {
+      "name": "Perforation",
+      "reason": "Acute abdomen/peritonitis",
+      "action": "Emergency surgery"
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "NSAID use",
+      "impact": "Mucosal injury"
+    },
+    {
+      "name": "H. pylori",
+      "impact": "Primary cause"
+    }
+  ],
+  "typical_onset": "Chronic recurrent",
+  "disease_course": "Recurrent pain; risk of bleeding/perforation.",
+  "exclusion_clues": [],
+  "differential_diagnoses": [
+    "Gastritis",
+    "GERD",
+    "Gastric cancer"
+  ],
+  "last_reviewed": "2024-06-14",
+  "source_references": [
+    "Symptoms-To-Diagnose-2nd-Edition.pdf",
+    "AIIMS-Rishikesh.pdf"
+  ]
+}
