@@ -1,0 +1,478 @@
+{
+  "Fever": [
+    "fever",
+    "high temperature",
+    "feeling hot",
+    "burning up",
+    "fevers",
+    "pyrexia",
+    "temperature",
+    "raised temperature",
+    "febrile",
+    "running a fever",
+    "hot flashes",
+    "overheating"
+  ],
+  "Chills": [
+    "chills",
+    "shivering",
+    "rigors",
+    "feeling cold",
+    "shivers",
+    "teeth chattering",
+    "shakes",
+    "cold sweats",
+    "goosebumps",
+    "violent shivering"
+  ],
+  "Sweating": [
+    "sweating",
+    "diaphoresis",
+    "profuse sweating",
+    "perspiring",
+    "excessive sweating",
+    "breaking out in a sweat",
+    "sweaty",
+    "clammy sweating"
+  ],
+  "Night sweats": [
+    "night sweats",
+    "sweating at night",
+    "waking up soaking wet",
+    "drenching sweats",
+    "soaked sheets",
+    "nighttime sweating"
+  ],
+  "Headache": [
+    "headache",
+    "head pain",
+    "pounding head",
+    "throbbing head",
+    "heavy head",
+    "migraine",
+    "sore head",
+    "pressure in head",
+    "aching head"
+  ],
+  "Thunderclap headache": [
+    "thunderclap headache",
+    "worst headache of my life",
+    "sudden severe headache",
+    "explosive headache",
+    "instant severe headache"
+  ],
+  "Retro-orbital pain": [
+    "retro-orbital pain",
+    "pain behind the eyes",
+    "pain behind eyes",
+    "eye pain",
+    "eyes hurt",
+    "deep eye pain"
+  ],
+  "Photophobia": [
+    "photophobia",
+    "sensitivity to light",
+    "light hurts eyes",
+    "can't stand bright light",
+    "light sensitivity"
+  ],
+  "Myalgia": [
+    "myalgia",
+    "muscle pain",
+    "body aches",
+    "sore muscles",
+    "aching muscles",
+    "muscle aches",
+    "muscle soreness"
+  ],
+  "Malaise": [
+    "malaise",
+    "feeling unwell",
+    "general weakness",
+    "feeling lousy",
+    "body weakness",
+    "feeling run down",
+    "not feeling right"
+  ],
+  "Fatigue": [
+    "fatigue",
+    "tiredness",
+    "exhaustion",
+    "no energy",
+    "feeling weak",
+    "worn out",
+    "lethargy",
+    "tired all the time",
+    "extreme tiredness"
+  ],
+  "Rash": [
+    "rash",
+    "skin rash",
+    "red spots",
+    "skin eruption",
+    "breaking out",
+    "hives",
+    "itchy skin",
+    "skin redness"
+  ],
+  "Rose spots": [
+    "rose spots",
+    "pink spots on chest",
+    "red spots on stomach",
+    "salmon-colored spots"
+  ],
+  "Pallor": [
+    "pallor",
+    "pale skin",
+    "looking pale",
+    "loss of color",
+    "white as a sheet",
+    "paleness",
+    "ashen appearance"
+  ],
+  "Cough": [
+    "cough",
+    "coughing",
+    "hacking cough",
+    "dry cough",
+    "persistent cough",
+    "nagging cough"
+  ],
+  "Sputum production": [
+    "sputum",
+    "phlegm",
+    "mucus",
+    "productive cough",
+    "spitting up stuff",
+    "wet cough",
+    "chest mucus"
+  ],
+  "Rusty sputum": [
+    "rusty sputum",
+    "brownish phlegm",
+    "blood-tinged spit",
+    "reddish sputum",
+    "rust-colored mucus"
+  ],
+  "Hemoptysis": [
+    "hemoptysis",
+    "coughing up blood",
+    "blood in sputum",
+    "bloody cough",
+    "spitting blood",
+    "blood-streaked phlegm"
+  ],
+  "Dyspnea": [
+    "dyspnea",
+    "shortness of breath",
+    "breathless",
+    "difficulty breathing",
+    "can't breathe",
+    "winded",
+    "gasping for air",
+    "air hunger",
+    "breathing trouble"
+  ],
+  "Dyspnea on exertion": [
+    "dyspnea on exertion",
+    "out of breath when walking",
+    "breathless with activity",
+    "can't catch breath after exercise",
+    "short of breath on exertion"
+  ],
+  "Wheezing": [
+    "wheezing",
+    "wheeze",
+    "whistling breath",
+    "squeaky breathing",
+    "noisy breathing",
+    "whistling sound in chest"
+  ],
+  "Chest pain": [
+    "chest pain",
+    "chest discomfort",
+    "pain in chest",
+    "chest pressure",
+    "heavy chest",
+    "squeezing chest pain",
+    "aching chest"
+  ],
+  "Pleuritic chest pain": [
+    "pleuritic chest pain",
+    "pain when breathing in",
+    "sharp chest pain",
+    "stabbing chest pain",
+    "pain worse with deep breaths"
+  ],
+  "Chest tightness": [
+    "chest tightness",
+    "tight chest",
+    "pressure on chest",
+    "constriction in chest",
+    "band-like chest pressure"
+  ],
+  "Palpitations": [
+    "palpitations",
+    "heart racing",
+    "heart pounding",
+    "skipping beats",
+    "fluttering heart",
+    "rapid heartbeat",
+    "irregular heartbeat"
+  ],
+  "Nausea": [
+    "nausea",
+    "feeling sick",
+    "upset stomach",
+    "queasy",
+    "feel like vomiting",
+    "sick to stomach"
+  ],
+  "Vomiting": [
+    "vomiting",
+    "throwing up",
+    "puking",
+    "being sick",
+    "retching",
+    "emesis"
+  ],
+  "Persistent vomiting": [
+    "persistent vomiting",
+    "can't stop throwing up",
+    "constant vomiting",
+    "keep being sick",
+    "repeated vomiting"
+  ],
+  "Hematemesis": [
+    "hematemesis",
+    "vomiting blood",
+    "throwing up blood",
+    "coffee ground vomit",
+    "blood in vomit"
+  ],
+  "Abdominal pain": [
+    "abdominal pain",
+    "stomach ache",
+    "belly pain",
+    "tummy ache",
+    "stomach pain",
+    "cramps",
+    "abdominal discomfort"
+  ],
+  "Severe abdominal pain": [
+    "severe abdominal pain",
+    "agony in stomach",
+    "severe belly pain",
+    "acute abdomen",
+    "intense abdominal pain"
+  ],
+  "Epigastric pain": [
+    "epigastric pain",
+    "upper stomach pain",
+    "pain below ribs",
+    "pain in pit of stomach",
+    "indigestion pain",
+    "upper abdominal pain"
+  ],
+  "Abdominal cramps": [
+    "abdominal cramps",
+    "cramping",
+    "belly cramps",
+    "stomach cramps",
+    "spasms"
+  ],
+  "Diarrhea": [
+    "diarrhea",
+    "loose stools",
+    "the runs",
+    "watery stool",
+    "frequent bowel movements",
+    "runny stool"
+  ],
+  "Bloody stool": [
+    "bloody stool",
+    "blood in poop",
+    "dysentery",
+    "rectal bleeding",
+    "red stool",
+    "passing blood"
+  ],
+  "Melena": [
+    "melena",
+    "black stool",
+    "tarry stool",
+    "black sticky poop",
+    "dark stool"
+  ],
+  "Dyspepsia": [
+    "dyspepsia",
+    "indigestion",
+    "upset stomach",
+    "bloating",
+    "gassiness",
+    "stomach discomfort"
+  ],
+  "Heartburn": [
+    "heartburn",
+    "acid reflux",
+    "burning in chest",
+    "acid indigestion",
+    "burning throat",
+    "acid burn"
+  ],
+  "Regurgitation": [
+    "regurgitation",
+    "reflux",
+    "bringing up food",
+    "acid coming up",
+    "burping up liquid",
+    "food coming back up"
+  ],
+  "Dysphagia": [
+    "dysphagia",
+    "difficulty swallowing",
+    "trouble swallowing",
+    "food sticking",
+    "can't swallow",
+    "painful swallowing"
+  ],
+  "Polyuria": [
+    "polyuria",
+    "urinating often",
+    "peeing a lot",
+    "frequent urination",
+    "going to bathroom a lot",
+    "passing large amounts of urine"
+  ],
+  "Polydipsia": [
+    "polydipsia",
+    "excessive thirst",
+    "always thirsty",
+    "drinking a lot of water",
+    "unquenchable thirst",
+    "constant thirst"
+  ],
+  "Weight loss": [
+    "weight loss",
+    "losing weight",
+    "lost weight",
+    "clothes getting loose",
+    "unintentional weight loss",
+    "getting thin",
+    "losing pounds"
+  ],
+  "Dehydration": [
+    "dehydration",
+    "dried out",
+    "very thirsty",
+    "dry mouth and skin",
+    "not peeing enough",
+    "fluid loss"
+  ],
+  "Joint pain": [
+    "joint pain",
+    "aching joints",
+    "painful joints",
+    "sore joints",
+    "arthralgia",
+    "joint aches"
+  ],
+  "Stiffness": [
+    "stiffness",
+    "stiff joints",
+    "hard to move",
+    "morning stiffness",
+    "locked joints",
+    "reduced mobility"
+  ],
+  "Crepitus": [
+    "crepitus",
+    "clicking joints",
+    "crackling joints",
+    "grating sensation",
+    "crunchy joints",
+    "popping joints"
+  ],
+  "Hemiparesis": [
+    "hemiparesis",
+    "weakness on one side",
+    "can't move arm",
+    "paralysis on one side",
+    "limb weakness",
+    "one-sided weakness"
+  ],
+  "Facial droop": [
+    "facial droop",
+    "face drooping",
+    "twisted face",
+    "paralyzed face",
+    "facial palsy",
+    "uneven smile"
+  ],
+  "Aphasia": [
+    "aphasia",
+    "speech disturbance",
+    "trouble speaking",
+    "slurred speech",
+    "can't find words",
+    "difficulty talking",
+    "speech problems"
+  ],
+  "Confusion": [
+    "confusion",
+    "disoriented",
+    "muddled",
+    "delirium",
+    "mixed up",
+    "brain fog",
+    "mental confusion"
+  ],
+  "Impaired consciousness": [
+    "impaired consciousness",
+    "passed out",
+    "blacked out",
+    "unresponsive",
+    "coma",
+    "fainted",
+    "loss of consciousness"
+  ],
+  "Hypotension": [
+    "hypotension",
+    "low blood pressure",
+    "shock",
+    "fainting",
+    "feeling faint",
+    "lightheaded"
+  ],
+  "Bleeding manifestations": [
+    "bleeding",
+    "unexplained bleeding",
+    "bleeding gums",
+    "nosebleeds",
+    "easy bruising",
+    "prolonged bleeding"
+  ],
+  "Cyanosis": [
+    "cyanosis",
+    "blue lips",
+    "blue skin",
+    "turning blue",
+    "bluish discoloration",
+    "dusky skin"
+  ],
+  "Hypoxia": [
+    "hypoxia",
+    "low oxygen",
+    "air hunger",
+    "gasping",
+    "blue fingertips",
+    "oxygen deprivation"
+  ],
+  "Cold clammy skin": [
+    "cold clammy skin",
+    "cold sweat",
+    "clammy",
+    "cool skin",
+    "damp cold skin"
+  ]
+}
