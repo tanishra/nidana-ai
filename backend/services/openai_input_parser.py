@@ -17,11 +17,11 @@ DO NOT diagnose diseases.
 DO NOT suggest conditions.
 DO NOT add medical reasoning.
 Return STRICT JSON only in the following format:
-{ "symptoms": ["symptom1", "symptom2"] }
+{ "symptoms": ["symptom1", "symptom2"], "risk_factors": ["risk1", "risk2"] }
 """
 
 USER_PROMPT_TEMPLATE = """
-Extract symptoms from the following text.
+Extract symptoms and risk factors from the following text.
 
 Text:
 \"\"\"{text}\"\"\"
@@ -31,7 +31,7 @@ Return JSON ONLY.
 
 def parse_input(text):
     """
-    Parse user input using OpenAI to extract symptoms.
+    Parse user input using OpenAI to extract symptoms and risk factors.
     """
     logger.debug("Parsing input text: %s", text)
 
@@ -49,8 +49,15 @@ def parse_input(text):
         data = json.loads(content)
 
         symptoms = [s.lower() for s in data.get("symptoms", [])]
+        risk_factors = [r.lower() for r in data.get("risk_factors", [])]
+
         logger.info("Extracted symptoms: %s", symptoms)
-        return symptoms
+        logger.info("Extracted risk factors: %s", risk_factors)
+
+        return {
+            "symptoms": symptoms,
+            "risk_factors": risk_factors
+        }
 
     except Exception:
         logger.exception("Failed to parse input via OpenAI")
