@@ -9,7 +9,7 @@ logger = get_logger(__name__)
 MODEL_PATH = Path("backend/ml/production_ranker.joblib")
 
 
-class ProductionDiseaseRanker:
+class DiseaseRanker:
     """
     Production-grade ML ranker.
 
