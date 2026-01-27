@@ -47,12 +47,12 @@ def infer_diseases(symptoms, risk_factors, diseases):
                     matched,
                 )
 
-        top_results = sorted(results, key=lambda x: x["score"], reverse=True)[:3]
+        sorted_results = sorted(results, key=lambda x: x["score"], reverse=True)
         logger.info(
-            "Disease inference completed | top_results=%s",
-            [r["disease"] for r in top_results],
+            "Disease inference completed | diseases=%s",
+            [r["disease"] for r in sorted_results],
         )
-        return top_results
+        return sorted_results
 
     except Exception:
         logger.exception("Error during disease inference")
