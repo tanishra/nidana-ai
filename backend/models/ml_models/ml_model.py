@@ -6,7 +6,7 @@ from backend.utils.logger import get_logger
 
 logger = get_logger(__name__)
 
-MODEL_PATH = Path("backend/ml/production_ranker.joblib")
+MODEL_PATH = Path("backend/models/ml_models/disease_ranker.joblib")
 
 
 class ProductionDiseaseRanker:
