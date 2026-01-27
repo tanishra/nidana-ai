@@ -60,23 +60,22 @@ def explain(results):
     USER_PROMPT = f"""
 You are given ranked possible medical conditions with supporting evidence.
 
-For EACH condition:
-- Explain why it is being considered
-- Explain why confidence is LOW, MODERATE, or HIGH
-- Mention the role of matched common symptoms, key symptoms, and risk factors
-- Clearly state what key information is missing
-- Explain why other plausible conditions were not ranked higher
+Requirements for explanation:
+- Write a short, concise summary for each condition (3–5 sentences max)
+- Explain why the disease is being considered and its confidence (LOW, MODERATE, HIGH)
+- Mention key matched symptoms, key symptoms, and risk factors
+- Clearly state missing information
+- Explain briefly why other plausible conditions were not ranked higher
 - Suggest follow-up history, labs, or exams if needed
-- Use cautious, real-world clinical language
-- Write as a clinician explaining to another clinician
+- Avoid long narratives; doctors should grasp it quickly
 
 Data:
 {structured_context}
 
-Output requirements:
-- Write a concise clinical narrative (not bullet points)
-- Avoid numeric repetition unless clinically relevant
-- End by stating whether additional information is required
+Output:
+- Concise clinical narrative per condition
+- No bullet points
+- End by indicating if more information is needed
 """
 
     try:
