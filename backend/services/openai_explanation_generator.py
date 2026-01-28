@@ -58,25 +58,28 @@ def explain(results):
         })
 
     USER_PROMPT = f"""
-You are given ranked possible medical conditions with supporting evidence.
+                You are given ranked possible medical conditions with supporting evidence.
 
-Requirements for explanation:
-- Write a short, concise summary for each condition (3–5 sentences max)
-- Explain why the disease is being considered and its confidence (LOW, MODERATE, HIGH)
-- Mention key matched symptoms, key symptoms, and risk factors
-- Clearly state missing information
-- Explain briefly why other plausible conditions were not ranked higher
-- Suggest follow-up history, labs, or exams if needed
-- Avoid long narratives; doctors should grasp it quickly
+                Requirements for explanation:
+                - Provide exactly 5-6 bullet points, each fitting in ONE line (max 15-20 words)
+                - Points 1-3: Brief clinical reason why each top condition was selected
+                - Point 4: Brief reason why other conditions were NOT prioritized
+                - Points 5-6: Critical information that builds clinical trust (missing data, confidence rationale, or next diagnostic step)
+                - Make the explanation visually scannable and attractive for quick reading
 
-Data:
-{structured_context}
+                Format:
+                - Condition 1: [Why selected - key symptom match or pattern] (Do not write the title Condition 1:)
+                - Condition 2: [Why selected - key symptom match or pattern] (Do not write the title Condition 2:)
+                - Condition 3: [Why selected - key symptom match or pattern] (Do not write the title Condition 3:)
+                - Other conditions: [Why excluded - missing key features or low match] (Do not write the title Other conditions:, Do not give any title)
+                - [Confidence assessment or critical missing information] (Do not use the word confidence, make it sounds clinically correct)
+                - [Recommended diagnostic next step] (Do not write the title Recommended next step:, Please give valid recommendation to doctors without heading)
 
-Output:
-- Concise clinical narrative per condition
-- No bullet points
-- End by indicating if more information is needed
-"""
+                Data:
+                {structured_context}
+
+                Output: Exactly 5-6 one-line bullet points. Clinical. Clear. Trust-building.
+                """
 
     try:
         response = openai.chat.completions.create(
