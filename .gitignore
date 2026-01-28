@@ -13,3 +13,9 @@ __pycache__
 data
 
 docs
+
+backend/evaluation_dashboard.py
+backend/streamlit_testing.py
+backend/streamlit_with_feedback.py
+
+logs
