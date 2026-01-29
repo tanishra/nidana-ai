@@ -3,13 +3,13 @@
   "disease_name": "Typhoid Fever",
   "category": "Infectious Disease",
   "prevalence_region": ["India", "South Asia", "Global"],
-  "description": "Systemic infection caused by Salmonella Typhi, presenting with prolonged fever and abdominal symptoms. A multisystemic illness primarily involving the small intestine with systemic toxemia; may also be caused by Salmonella Paratyphi.",
+  "description": "Systemic infection caused by Salmonella Typhi or Paratyphi. Characterized by prolonged fever, abdominal symptoms, and systemic toxemia. Classically shows a step-ladder fever pattern and progressive systemic involvement.",
   "common_symptoms": [
     {
       "name": "Fever",
-      "typical_severity": "High (step-ladder pattern)",
+      "typical_severity": "High",
       "typical_duration": "Prolonged (>1 week)",
-      "weight": 5
+      "weight": 3
     },
     {
       "name": "Abdominal pain",
@@ -21,86 +21,74 @@
       "name": "Malaise",
       "typical_severity": "Moderate",
       "typical_duration": "Acute",
-      "weight": 3
-    },
-    {
-      "name": "Gradual continuous fever",
-      "typical_severity": "Moderate to High",
-      "typical_duration": "Weeks",
-      "weight": 95
+      "weight": 2
     },
     {
       "name": "Headache",
       "typical_severity": "Moderate",
-      "typical_duration": "Acute phase",
-      "weight": 70
+      "typical_duration": "Early phase",
+      "weight": 2
     },
     {
       "name": "Lethargy",
       "typical_severity": "Moderate",
-      "typical_duration": "Duration of illness",
-      "weight": 80
+      "typical_duration": "Throughout illness",
+      "weight": 2
     }
   ],
   "key_symptoms": [
     {
       "name": "Relative bradycardia",
-      "clinical_significance": "Pulse slower than expected for fever height",
-      "weight": 3
-    },
-    {
-      "name": "Rose spots",
-      "clinical_significance": "Maculopapular rash on trunk (rare but specific)",
+      "clinical_significance": "Pulse slower than expected for degree of fever (Faget sign).",
       "weight": 5
     },
     {
-      "name": "Hepatomegaly and splenomegaly",
-      "clinical_significance": "Systemic involvement of the reticuloendothelial system",
-      "weight": 85
+      "name": "Rose spots",
+      "clinical_significance": "Transient maculopapular rash on trunk; uncommon but specific.",
+      "weight": 6
+    },
+    {
+      "name": "Hepatosplenomegaly",
+      "clinical_significance": "Systemic reticuloendothelial involvement.",
+      "weight": 5
     }
   ],
   "red_flags": [
     {
       "name": "Acute abdomen",
-      "reason": "Suspect intestinal perforation",
-      "action": "Surgical emergency referral"
+      "reason": "Possible intestinal perforation.",
+      "action": "Emergency surgical referral."
     },
     {
       "name": "Gastrointestinal bleeding",
-      "reason": "Hemorrhage from Peyer's patches",
-      "action": "Urgent stabilization/transfusion"
+      "reason": "Hemorrhage from Peyer's patches.",
+      "action": "Urgent stabilization and hospitalization."
     },
     {
       "name": "Altered sensorium",
-      "reason": "Typhoid encephalopathy",
-      "action": "High-dose steroids and antibiotics"
-    },
-    {
-      "name": "Abdominal distension",
-      "reason": "Potential indicator of intestinal perforation",
-      "action": "Immediate hospitalization and surgical consultation"
+      "reason": "Typhoid encephalopathy.",
+      "action": "Immediate ICU-level care."
     }
   ],
   "risk_factors": [
     {
       "name": "Poor sanitation",
-      "impact": "Fecal-oral transmission"
+      "impact": "Fecal-oral transmission risk."
     },
     {
-      "name": "Age < 15 years",
-      "impact": "Children have higher incidence in endemic regions"
+      "name": "Child or adolescent age",
+      "impact": "Higher incidence in endemic regions."
     }
   ],
-  "typical_onset": "Gradual (insidious), typically 7–14 days after exposure.",
-  "disease_course": "Week 1: fever/malaise; Week 2: abdominal symptoms/rash; Week 3: complications (bleed/perforation). Progressive febrile and toxemic phases with risk of hemorrhage or perforation if untreated.",
+  "typical_onset": "Gradual onset, typically 7–14 days after exposure.",
+  "disease_course": "Week 1: fever and malaise; Week 2: abdominal symptoms and toxemia; Week 3: complications such as bleeding or perforation if untreated.",
   "exclusion_clues": [
-    "Rigors (suggests Malaria)",
+    "Rigors with chills (suggests Malaria)",
     "Eschar (suggests Scrub Typhus)"
   ],
   "differential_diagnoses": [
     "Malaria",
     "Dengue",
-    "Rickettsial diseases",
     "Leptospirosis",
     "Scrub Typhus",
     "Viral Hepatitis",
