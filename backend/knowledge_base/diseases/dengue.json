@@ -2,8 +2,8 @@
   "disease_id": "D001",
   "disease_name": "Dengue Fever",
   "category": "Infectious Disease",
-  "prevalence_region": ["India"],
-  "description": "Acute febrile illness caused by dengue virus, characterized by fever, musculoskeletal pain, and potential for plasma leakage.",
+  "prevalence_region": ["India", "Tropical Regions"],
+  "description": "Acute febrile illness caused by dengue virus, characterized by fever, musculoskeletal pain, and potential for plasma leakage. Transmitted by Aedes mosquitoes and may progress to Dengue Hemorrhagic Fever or Dengue Shock Syndrome.",
   "common_symptoms": [
     {
       "name": "Fever",
@@ -28,6 +28,18 @@
       "typical_severity": "Mild",
       "typical_duration": "Variable",
       "weight": 3
+    },
+    {
+      "name": "Retro-orbital pain",
+      "typical_severity": "Moderate",
+      "typical_duration": "Febrile phase",
+      "weight": 4
+    },
+    {
+      "name": "Severe body ache (Break-bone pain)",
+      "typical_severity": "Severe",
+      "typical_duration": "Febrile phase",
+      "weight": 4
     }
   ],
   "key_symptoms": [
@@ -40,6 +52,11 @@
       "name": "Positive tourniquet test",
       "clinical_significance": "Indicates capillary fragility",
       "weight": 3
+    },
+    {
+      "name": "Thrombocytopenia",
+      "clinical_significance": "Platelet count < 100,000/mm3; marker of severity",
+      "weight": 5
     }
   ],
   "red_flags": [
@@ -62,16 +79,25 @@
       "name": "Cold clammy skin",
       "reason": "Sign of Dengue Shock Syndrome",
       "action": "Immediate fluid resuscitation"
+    },
+    {
+      "name": "Mucosal bleeding",
+      "reason": "Progression to Dengue Hemorrhagic Fever",
+      "action": "Immediate medical evaluation"
     }
   ],
   "risk_factors": [
     {
       "name": "Secondary infection",
       "impact": "Increases risk of severe dengue (DHF/DSS)"
+    },
+    {
+      "name": "Urbanization",
+      "impact": "Promotes Aedes mosquito breeding"
     }
   ],
-  "typical_onset": "Abrupt high fever",
-  "disease_course": "Febrile phase, critical phase (plasma leakage), recovery phase.",
+  "typical_onset": "Abrupt high fever, usually 4–7 days after mosquito bite.",
+  "disease_course": "Febrile phase, critical phase (plasma leakage around defervescence), recovery phase.",
   "exclusion_clues": [
     "Eschar (suggests Scrub Typhus)",
     "Joint pain without bleeding (suggests Chikungunya)"
@@ -80,7 +106,8 @@
     "Chikungunya",
     "Malaria",
     "Leptospirosis",
-    "Typhoid fever"
+    "Typhoid fever",
+    "Zika Virus"
   ],
   "last_reviewed": "2024-06-14",
   "source_references": [
