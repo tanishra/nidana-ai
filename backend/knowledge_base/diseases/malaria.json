@@ -2,8 +2,8 @@
   "disease_id": "D002",
   "disease_name": "Malaria",
   "category": "Infectious Disease",
-  "prevalence_region": ["India"],
-  "description": "Protozoal infection transmitted by Anopheles mosquitoes, characterized by febrile paroxysms and hemolysis.",
+  "prevalence_region": ["India", "South East Asia", "Africa"],
+  "description": "Protozoal infection transmitted by Anopheles mosquitoes, characterized by febrile paroxysms and hemolysis. Caused by Plasmodium species, with P. falciparum responsible for most severe and fatal cases.",
   "common_symptoms": [
     {
       "name": "Fever",
@@ -28,6 +28,18 @@
       "typical_severity": "Moderate",
       "typical_duration": "Acute",
       "weight": 3
+    },
+    {
+      "name": "Fatigue",
+      "typical_severity": "Moderate",
+      "typical_duration": "Varies",
+      "weight": 4
+    },
+    {
+      "name": "Anaemia",
+      "typical_severity": "Moderate",
+      "typical_duration": "Progressive",
+      "weight": 4
     }
   ],
   "key_symptoms": [
@@ -57,24 +69,36 @@
       "name": "Acidosis",
       "reason": "Respiratory distress/metabolic acidosis",
       "action": "Urgent resuscitation"
+    },
+    {
+      "name": "Coma or seizures",
+      "reason": "Severe cerebral malaria",
+      "action": "Immediate IV antimalarials and intensive care"
     }
   ],
   "risk_factors": [
     {
       "name": "Pregnancy",
       "impact": "Increases severity"
+    },
+    {
+      "name": "Hypoendemicity",
+      "impact": "Low immunity leading to severe disease across all ages"
     }
   ],
-  "typical_onset": "Acute paroxysmal",
-  "disease_course": "Cyclical fevers; P. falciparum may progress to multiorgan failure.",
+  "typical_onset": "Acute paroxysmal; usually 10–15 days after infective mosquito bite.",
+  "disease_course": "Cyclical fevers; P. falciparum may progress to multiorgan failure, severe anemia, cerebral malaria, or death if untreated.",
   "exclusion_clues": [
     "Rash (suggests viral exanthem)",
-    "Eschar (suggests Rickettsial disease)"
+    "Eschar (suggests Rickettsial disease)",
+    "Normal platelet count (low probability for Dengue or Malaria)"
   ],
   "differential_diagnoses": [
     "Dengue",
     "Typhoid fever",
-    "Leptospirosis"
+    "Leptospirosis",
+    "Scrub Typhus",
+    "Meningoencephalitis"
   ],
   "last_reviewed": "2024-06-14",
   "source_references": [
