@@ -79,5 +79,6 @@
   "source_references": [
     "AIIMS-Rishikesh.pdf",
     "Harrison-20th-Edition.pdf"
-  ]
+  ],
+  "pathways": ["fever"]
 }

@@ -65,5 +65,6 @@
   "source_references": [
     "ICMR-Infectious.pdf",
     "AIIMS-Rishikesh.pdf"
-  ]
+  ],
+  "pathways": ["fever"]
 }

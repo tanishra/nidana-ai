@@ -99,5 +99,6 @@
     "AIIMS-Rishikesh.pdf",
     "Harrison-17th-Edition.pdf",
     "ICMR-Infectious.pdf"
-  ]
+  ],
+  "pathways": ["fever"]
 }

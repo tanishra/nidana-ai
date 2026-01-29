@@ -64,5 +64,6 @@
   "source_references": [
     "AIIMS-Rishikesh STG",
     "API Textbook 12th Edition"
-  ]
+  ],
+  "pathways": ["fever"]
 }

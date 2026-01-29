@@ -57,5 +57,6 @@
   "source_references": [
     "Harrison-20th-Edition.pdf",
     "Oxford-Handbook-3rd-Edition.pdf"
-  ]
+  ],
+  "pathways": ["fever"]
 }

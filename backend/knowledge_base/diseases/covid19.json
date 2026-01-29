@@ -56,5 +56,6 @@
   "source_references": [
     "ICMR-Infectious.pdf",
     "API-Textbook-12th-Edition.pdf"
-  ]
+  ],
+  "pathways": ["fever"]
 }
