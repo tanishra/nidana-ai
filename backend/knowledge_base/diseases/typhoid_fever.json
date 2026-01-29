@@ -2,8 +2,8 @@
   "disease_id": "D003",
   "disease_name": "Typhoid Fever",
   "category": "Infectious Disease",
-  "prevalence_region": ["India"],
-  "description": "Systemic infection caused by Salmonella Typhi, presenting with prolonged fever and abdominal symptoms.",
+  "prevalence_region": ["India", "South Asia", "Global"],
+  "description": "Systemic infection caused by Salmonella Typhi, presenting with prolonged fever and abdominal symptoms. A multisystemic illness primarily involving the small intestine with systemic toxemia; may also be caused by Salmonella Paratyphi.",
   "common_symptoms": [
     {
       "name": "Fever",
@@ -22,6 +22,24 @@
       "typical_severity": "Moderate",
       "typical_duration": "Acute",
       "weight": 3
+    },
+    {
+      "name": "Gradual continuous fever",
+      "typical_severity": "Moderate to High",
+      "typical_duration": "Weeks",
+      "weight": 95
+    },
+    {
+      "name": "Headache",
+      "typical_severity": "Moderate",
+      "typical_duration": "Acute phase",
+      "weight": 70
+    },
+    {
+      "name": "Lethargy",
+      "typical_severity": "Moderate",
+      "typical_duration": "Duration of illness",
+      "weight": 80
     }
   ],
   "key_symptoms": [
@@ -34,6 +52,11 @@
       "name": "Rose spots",
       "clinical_significance": "Maculopapular rash on trunk (rare but specific)",
       "weight": 5
+    },
+    {
+      "name": "Hepatomegaly and splenomegaly",
+      "clinical_significance": "Systemic involvement of the reticuloendothelial system",
+      "weight": 85
     }
   ],
   "red_flags": [
@@ -51,16 +74,25 @@
       "name": "Altered sensorium",
       "reason": "Typhoid encephalopathy",
       "action": "High-dose steroids and antibiotics"
+    },
+    {
+      "name": "Abdominal distension",
+      "reason": "Potential indicator of intestinal perforation",
+      "action": "Immediate hospitalization and surgical consultation"
     }
   ],
   "risk_factors": [
     {
       "name": "Poor sanitation",
       "impact": "Fecal-oral transmission"
+    },
+    {
+      "name": "Age < 15 years",
+      "impact": "Children have higher incidence in endemic regions"
     }
   ],
-  "typical_onset": "Gradual (insidious)",
-  "disease_course": "Week 1: fever/malaise; Week 2: abdominal symptoms/rash; Week 3: complications (bleed/perforation).",
+  "typical_onset": "Gradual (insidious), typically 7–14 days after exposure.",
+  "disease_course": "Week 1: fever/malaise; Week 2: abdominal symptoms/rash; Week 3: complications (bleed/perforation). Progressive febrile and toxemic phases with risk of hemorrhage or perforation if untreated.",
   "exclusion_clues": [
     "Rigors (suggests Malaria)",
     "Eschar (suggests Scrub Typhus)"
@@ -68,7 +100,11 @@
   "differential_diagnoses": [
     "Malaria",
     "Dengue",
-    "Rickettsial diseases"
+    "Rickettsial diseases",
+    "Leptospirosis",
+    "Scrub Typhus",
+    "Viral Hepatitis",
+    "Bacterial Sepsis"
   ],
   "last_reviewed": "2024-06-14",
   "source_references": [
