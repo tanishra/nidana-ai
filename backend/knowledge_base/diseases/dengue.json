@@ -113,5 +113,6 @@
   "source_references": [
     "AIIMS-Rishikesh.pdf",
     "API-Textbook-12th-Edition.pdf"
-  ]
+  ],
+  "pathways": ["fever"]
 }
