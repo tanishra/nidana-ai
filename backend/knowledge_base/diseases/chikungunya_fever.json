@@ -1,0 +1,27 @@
+{
+  "disease_id": "D021",
+  "disease_name": "Chikungunya Fever",
+  "category": "Arboviral Infection",
+  "prevalence_region": ["India", "Africa", "South East Asia"],
+  "description": "An alphaviral disease transmitted by Aedes mosquitoes, characterized by fever, severe joint pain, and rash.",
+  "common_symptoms": [
+    { "name": "Abrupt high fever", "typical_severity": "High", "typical_duration": "3-5 days", "weight": 90 },
+    { "name": "Severe Polyarthralgia", "typical_severity": "Severe/Disabling", "typical_duration": "Weeks to years", "weight": 98 }
+  ],
+  "key_symptoms": [
+    { "name": "Itching maculopapular rash", "clinical_significance": "Appears on trunk and limbs.", "weight": 70 },
+    { "name": "Crippling arthropathy", "clinical_significance": "Can persist for months to years.", "weight": 85 }
+  ],
+  "red_flags": [
+    { "name": "Bullous dermatosis", "reason": "Atypical severe manifestation.", "action": "Dermatological consult and supportive care." }
+  ],
+  "risk_factors": [
+    { "name": "Aedes Aegypti/Albopictus", "impact": "Primary vectors in tropical and temperate climates." }
+  ],
+  "typical_onset": "2-4 days (Incubation 2-12 days).",
+  "disease_course": "Acute self-limiting phase followed by possible chronic rheumatism.",
+  "exclusion_clues": ["Absence of joint swelling (favors Malaria)."],
+  "differential_diagnoses": ["Dengue", "Rheumatoid Arthritis", "Gout", "SLE."],
+  "last_reviewed": "October 2025",
+  "source_references": ["AIIMS-Rishikesh STG", "API Textbook 12th Ed"]
+}
